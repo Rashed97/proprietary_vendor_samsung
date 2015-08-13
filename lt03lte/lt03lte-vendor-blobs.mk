@@ -115,14 +115,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_snapshot.so:system/lib/libchromatix_imx135_snapshot.so \
 	vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_uhd_video.so:system/lib/libchromatix_imx135_uhd_video.so \
 	vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx135_zslshot.so:system/lib/libchromatix_imx135_zslshot.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_common.so:system/lib/libchromatix_s5k6b2yx_common.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_pip.so:system/lib/libchromatix_s5k6b2yx_pip.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_smart_stay.so:system/lib/libchromatix_s5k6b2yx_smart_stay.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
-	vendor/samsung/lt03lte//proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_common.so:system/lib/libchromatix_s5k6b2yx_common.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_pip.so:system/lib/libchromatix_s5k6b2yx_pip.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_smart_stay.so:system/lib/libchromatix_s5k6b2yx_smart_stay.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
+	vendor/samsung/lt03lte/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
 	vendor/samsung/lt03lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/lt03lte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/lt03lte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
 	vendor/samsung/lt03lte/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+	vendor/samsung/lt03lte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
 	vendor/samsung/lt03lte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/lt03lte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	vendor/samsung/lt03lte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -159,7 +160,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
 	vendor/samsung/lt03lte/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
 	vendor/samsung/lt03lte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-	vendor/samsung/lt03lte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/lt03lte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
@@ -204,6 +204,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -265,13 +266,16 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
