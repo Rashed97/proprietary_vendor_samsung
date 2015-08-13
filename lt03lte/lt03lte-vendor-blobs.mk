@@ -67,9 +67,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/lt03lte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	vendor/samsung/lt03lte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
+	vendor/samsung/lt03lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-	vendor/samsung/lt03lte/proprietary//lib/libak8963c.so:system/lib/libak8963c.so \
+	vendor/samsung/lt03lte/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
 	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
 	vendor/samsung/lt03lte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_b.so:system/lib/libchromatix_imx134_common_720p_b.so \
 	vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_s.so:system/lib/libchromatix_imx134_common_720p_s.so \
@@ -119,9 +127,13 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/lt03lte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/lt03lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+	vendor/samsung/lt03lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/lt03lte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/lt03lte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
 	vendor/samsung/lt03lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/samsung/lt03lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/samsung/lt03lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/samsung/lt03lte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
@@ -186,6 +198,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_vt.so:system/vendor/lib/libchromatix_imx134_vt.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt_hd.so:system/vendor/lib/libchromatix_imx135_vt_hd.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt.so:system/vendor/lib/libchromatix_imx135_vt.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -234,6 +247,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -253,6 +267,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+	vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/lt03lte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
