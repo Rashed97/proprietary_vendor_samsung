@@ -66,8 +66,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/lt03lte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/lt03lte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-	vendor/samsung/lt03lte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	vendor/samsung/lt03lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/lt03lte/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
 	vendor/samsung/lt03lte/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
@@ -127,12 +125,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/lt03lte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/lt03lte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/lt03lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-	vendor/samsung/lt03lte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/lt03lte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/lt03lte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
 	vendor/samsung/lt03lte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/samsung/lt03lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/samsung/lt03lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/samsung/lt03lte/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
 	vendor/samsung/lt03lte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
